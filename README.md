@@ -1,14 +1,14 @@
 # Cat and Dog Classifier using CNN
 For the website: 
 <br>
-Requires: [Tensorflow](), Matplotlib, streamlit, st_annotated_text
+Requires: [TensorFlow](https://www.tensorflow.org/), [Matplotlib](https://matplotlib.org/), [Streamlit](https://streamlit.io/), [st_annotated_text](https://github.com/tvst/st-annotated-text)
 ```
 pip install tensorflow
 pip install matplotlib
 pip install streamlit
 pip install st_annotated_text
 ```
-'classifier.ipyn' requires additional [Numpy]() and [scikit-learn]()
+'classifier.ipyn' requires additional [NumPy](https://numpy.org/) and [scikit-learn](https://scikit-learn.org/stable/)
 ```
 pip install numpy
 pip install sklearn
