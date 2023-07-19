@@ -1,7 +1,7 @@
 # Cat and Dog Classifier using CNN
-For the website:
-\br
-Requirements: [Tensorflow](), Matplotlib, streamlit, st_annotated_text
+For the website: 
+<br>
+Requires: [Tensorflow](), Matplotlib, streamlit, st_annotated_text
 ```
 pip install tensorflow
 pip install matplotlib
