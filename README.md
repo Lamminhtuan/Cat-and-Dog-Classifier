@@ -1,5 +1,6 @@
 # Cat and Dog Classifier using CNN
 For the website:
+\br
 Requirements: [Tensorflow](), Matplotlib, streamlit, st_annotated_text
 ```
 pip install tensorflow
@@ -12,7 +13,8 @@ pip install st_annotated_text
 pip install numpy
 pip install sklearn
 ```
-Please follow the instruction in [](https://docs.streamlit.io/library/get-started/installation). Note that the required libraries are installed in the enviroment you are using.
+Please follow the instruction in [Install Streamlit
+](https://docs.streamlit.io/library/get-started/installation). Make sure the required libraries are installed in the enviroment you are using.
 To run the website, run this script in terminal:
 ```
 streamlit run st_classifier.py
