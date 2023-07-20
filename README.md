@@ -11,7 +11,7 @@ pip install st_annotated_text
 'classifier.ipyn' requires additional [NumPy](https://numpy.org/) and [scikit-learn](https://scikit-learn.org/stable/)
 ```
 pip install numpy
-pip install sklearn
+pip install scikit-learn
 ```
 Please follow the instruction in [Install Streamlit
 ](https://docs.streamlit.io/library/get-started/installation). Make sure the required libraries are installed in the enviroment you are using.
