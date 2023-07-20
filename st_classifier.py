@@ -20,7 +20,6 @@ if uploaded_file is not None:
     st.image(ori_img)
     img = ori_img.resize((224, 224))
     img = np.asarray(img)
-    st.write(img.shape)
     img = img / 255.0
     img = np.expand_dims(img, axis=0)
     pred = model.predict(img)
