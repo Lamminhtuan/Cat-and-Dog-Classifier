@@ -2,7 +2,7 @@
 ## I've deployed the website to classify cat and dog on: https://cat-and-dog-classifier-bymtl.streamlit.app/
 
 ## In case you can not use the website I've deployed:
-<br>
+
 For the streamlit file: 
 <br>
 Requires: [TensorFlow](https://www.tensorflow.org/), [Matplotlib](https://matplotlib.org/), [Streamlit](https://streamlit.io/), [st_annotated_text](https://github.com/tvst/st-annotated-text)
