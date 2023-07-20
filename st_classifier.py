@@ -3,9 +3,9 @@ import streamlit as st
 from annotated_text import annotated_text, annotation
 from PIL import Image
 import numpy as np
+import cv2
 import matplotlib.pyplot as plt
 st.set_page_config(page_title='Cat and Dog Classifier', page_icon='logo.png')
-
 col1, col2 = st.columns(2)
 col2.title('CAT AND DOG CLASSIFIER')
 st.write('By Minh Tuan Lam')
@@ -21,6 +21,7 @@ if uploaded_file is not None:
     st.image(ori_img)
     img = ori_img.resize((224, 224))
     img = np.asarray(img)
+    img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
     img = img / 255.0
     img = np.expand_dims(img, axis=0)
     pred = model.predict(img)
