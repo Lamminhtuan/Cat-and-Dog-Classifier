@@ -3,14 +3,13 @@ import streamlit as st
 from annotated_text import annotated_text, annotation
 from PIL import Image
 import numpy as np
-import cv2
 import matplotlib.pyplot as plt
 st.set_page_config(page_title='Cat and Dog Classifier', page_icon='logo.png')
 col1, col2 = st.columns(2)
 col2.title('CAT AND DOG CLASSIFIER')
 st.write('By Minh Tuan Lam')
 col1.image('catndog.png')
-uploaded_file = st.file_uploader('Choose an image to classify', type=['png', 'jpg'])
+uploaded_file = st.file_uploader('Choose an image to classify', type=['jpg'])
 colors = ['#CBFFA9', '#EF6262']
 classes = ['Cat', 'Dog']
 explode = [0.05, 0.05]
@@ -21,7 +20,7 @@ if uploaded_file is not None:
     st.image(ori_img)
     img = ori_img.resize((224, 224))
     img = np.asarray(img)
-    img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
+    st.write(img.shape)
     img = img / 255.0
     img = np.expand_dims(img, axis=0)
     pred = model.predict(img)
