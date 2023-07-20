@@ -26,7 +26,6 @@ if uploaded_file is not None:
     pred = model.predict(img)
     col4, col5= st.columns(2)
     with col4:
-        st.write(pred)
         pred = pred.flatten()
         pred = np.multiply(pred, multipliers)
         lb = np.argmax(pred)
