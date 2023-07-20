@@ -1,7 +1,9 @@
 # Cat and Dog Classifier using CNN
 I've deployed the website to classify cat and dog on: https://cat-and-dog-classifier-bymtl.streamlit.app/
 <br>
-In case you can not use the website I've deployed:
+
+<b>In case you can not use the website I've deployed:</b>
+
 <br>
 For the streamlit file: 
 <br>
